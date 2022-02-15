@@ -24,11 +24,8 @@
 
   <ItemGroup>
     <Folder Include="Authorization\" />
-    <Folder Include="Entities\" />
-    <Folder Include="Helpers\" />
     <Folder Include="Migrations\SqlServerMigrations\" />
     <Folder Include="Migrations\SqliteMigrations\" />
-    <Folder Include="Models\Users\" />
     <Folder Include="Services\" />
   </ItemGroup>
 
