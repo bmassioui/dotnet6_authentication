@@ -15,12 +15,12 @@ Database migration files based on the classes in the `/Entities` folder that are
 ```
 dotnet ef migrations add InitialCreate --context SqliteDataContext --output-dir Migrations/SqliteMigrations
 ```
-- SQL Server EF Core Migrations (Windows Command):    
+- SQL Server EF Core Migrations (**Windows Command**):    
 `set ASPNETCORE_ENVIRONMENT=Production`
 ```
 dotnet ef migrations add InitialCreate --context DataContext --output-dir Migrations/SqlServerMigrations
 ```
-* SQL Server EF Core Migrations (Windows PowerShell):   
+* SQL Server EF Core Migrations (**Windows PowerShell**):   
 `$env:ASPNETCORE_ENVIRONMENT="Production"`
 ```
 dotnet ef migrations add InitialCreate --context DataContext --output-dir Migrations/SqlServerMigrations
